@@ -1,0 +1,61 @@
+/* responsividade da pagina home */
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+    .utensilios{
+        width: 30%;
+        position: static;
+        margin: 10px 5px;
+    }
+
+    .principal p{
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
+
+    .banner{
+        width: 95%;
+        padding-top: 1rem;
+        margin-left: 2.6%;
+    }
+
+/* responsividade da página de contato */
+    .formulario{
+        margin-left: 4rem;
+        width: 100%;
+    }
+    fieldset{
+        width: 100%;
+        margin: 15px;
+    }
+    .checkbox{
+        margin: 16px;
+    }
+    .enviar{
+        margin: 16px;
+        width: 90%;
+    }
+    table{
+        width: 94%;
+        margin: 10px;
+    }
+    .produtos{
+        width: 65rem;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin: 16px;
+    }
+}
